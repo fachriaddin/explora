@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "219503498118",
+    "project_id": "explora-7db92",
+    "storage_bucket": "explora-7db92.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219503498118:android:a158263dcfedd4c4965207",
+        "android_client_info": {
+          "package_name": "com.example.explora"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPNE-xlY60qqfT1F8WEsJmMmRTbyKz1OI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219503498118:android:e7c194319a99ff58965207",
+        "android_client_info": {
+          "package_name": "com.example.hi_solo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPNE-xlY60qqfT1F8WEsJmMmRTbyKz1OI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

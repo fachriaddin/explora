@@ -1,24 +1,14 @@
 workflows:
-  explora-android:
-    name: Explora Android Build
+  build-android:
+    name: Build Android APK
     max_build_duration: 60
     environment:
-      flutter: "3.7.2"
-      vars:
-        FLUTTER_BUILD_MODE: release
+      flutter: stable
+      xcode: latest
     scripts:
       - name: Install dependencies
-        script: |
-          flutter pub get
-      - name: Run tests
-        script: |
-          flutter test
+        script: flutter pub get
       - name: Build APK
-        script: |
-          flutter build apk --release
+        script: flutter build apk --debug
     artifacts:
-      - build/app/outputs/flutter-apk/app-release.apk
-    publishing:
-      email:
-        recipients:
-          - afachriaddin@gmail.com.com  # ganti dengan email kamu
+      - build/app/outputs/flutter-apk/app-debug.apk
